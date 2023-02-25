@@ -5,6 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>solanaffbusiness</title>
+    <!-- link aos css  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- favicon  -->
     <link rel="shortcut icon" href="./assets/img/png/New folder/fan_img.svg" type="image/x-icon">
     <!-- link:bootstrap  -->
@@ -86,10 +88,10 @@
             </div>
         </section>
         <!-- popular sec  -->
-        <section class="bg_lght_ylow">
+        <section class="bg_lght_ylow overflow-hidden">
             <div class="container text-center text-md-start py-3 py-xl-0">
                 <div class="row align-items-center flex-column-reverse flex-md-row">
-                    <div class="col-12 col-md-6 pb-5 py-xl-0">
+                    <div class="col-12 col-md-6 pb-5 py-xl-0" data-aos="fade-right">
                         <h2 class="ff_poppins fw_700 fs_3xl">It was popularised</h2>
                         <p class="ff_poppins fw_400 fs_sm mt-4">Have you heard? We're hiring! We have 3,333 working
                             positions to fill on the Solana
@@ -104,7 +106,7 @@
                                 MORE</a>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 pb-5 py-xl-0">
+                    <div class="col-12 col-md-6 pb-5 py-xl-0" data-aos="fade-left">
                         <div class="position-relative">
                             <div class="position-absolute fan d-none d_block_xl_plus"></div>
                             <div class="position-absolute blue d-none d_block_xl_plus"></div><img
@@ -245,23 +247,23 @@
                 <div>
                     <p class="mb-0 ff_poppins fw_700 fs_3xl  text-center">Team</p>
                     <div class="row py-3">
-                        <div class="col-12 col-sm-6 col-lg-3"><img src="./assets/img/png/team_sec/card1.png"
-                                class="w-100" alt="">
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><img
+                                src="./assets/img/png/team_sec/card1.png" class="w-100" alt="">
                             <p class="ff_poppins fw_700 fs_lg text-center mt-1  mb-1">Jhone Doe</p>
                             <p class="ff_poppins fw_400 fs_sm text-center">Manager</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3"><img src="./assets/img/png/team_sec/card2.png"
-                                class="w-100" alt="">
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-down"><img
+                                src="./assets/img/png/team_sec/card2.png" class="w-100" alt="">
                             <p class="ff_poppins fw_700 fs_lg text-center mt-1  mb-1">Jhone Doe</p>
                             <p class="ff_poppins fw_400 fs_sm text-center">Manager</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3"><img src="./assets/img/png/team_sec/card3.png"
-                                class="w-100" alt="">
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-up"><img
+                                src="./assets/img/png/team_sec/card3.png" class="w-100" alt="">
                             <p class="ff_poppins fw_700 fs_lg text-center mt-1  mb-1">Jhone Doe</p>
                             <p class="ff_poppins fw_400 fs_sm text-center">Manager</p>
                         </div>
-                        <div class="col-12 col-sm-6 col-lg-3"><img src="./assets/img/png/team_sec/card4.png"
-                                class="w-100" alt="">
+                        <div class="col-12 col-sm-6 col-lg-3" data-aos="fade-down"><img
+                                src="./assets/img/png/team_sec/card4.png" class="w-100" alt="">
                             <p class="ff_poppins fw_700 fs_lg text-center mt-1  mb-1">Jhone Doe</p>
                             <p class="ff_poppins fw_400 fs_sm text-center">Manager</p>
                         </div>
@@ -372,10 +374,19 @@
             </div>
         </section>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
+    <!-- aos js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 2000,
+        })
+    </script>
 
 </body>
 
